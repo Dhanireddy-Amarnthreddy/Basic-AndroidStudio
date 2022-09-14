@@ -82,19 +82,14 @@ public class MainActivity extends AppCompatActivity {
 </RelativeLayout>
 
 ### Output
+![1](https://user-images.githubusercontent.com/94165103/190207270-5e5691b2-f686-43b8-8197-bc9e7a91a416.jpg)
+![2](https://user-images.githubusercontent.com/94165103/190207357-4c281b5e-60d6-416c-b786-86bdd4e8ccc0.jpg)
+![3](https://user-images.githubusercontent.com/94165103/190207453-75c61a5e-3cd4-44cc-a9e0-bf9979f663c5.jpg)
+![4](https://user-images.githubusercontent.com/94165103/190207613-b225cd2b-24e0-4151-a84a-bd08efe84aa5.jpg)
+![5](https://user-images.githubusercontent.com/94165103/190207677-afbb3b0d-ffc5-412a-bd97-293c0c351441.jpg)
+![6](https://user-images.githubusercontent.com/94165103/190207777-872e5fd1-f622-43e9-b1dc-cce76a228682.jpg)
 
-<img width="1440" alt="1" src="https://user-images.githubusercontent.com/94165103/190054686-9b4a5dc4-f331-4990-a399-0695d3a635cb.png">
 
-<img width="1440" alt="2" src="https://user-images.githubusercontent.com/94165103/190054828-4cab1ccb-fdba-4b26-9967-5a0d016e24e4.png">
+### REsult!
 
-<img width="1440" alt="3" src="https://user-images.githubusercontent.com/94165103/190054899-5f6d9a42-a960-409b-a304-8562a68d496b.png">
-
-<img width="1440" alt="4" src="https://user-images.githubusercontent.com/94165103/190055059-af5f63c1-830e-42e0-b6be-18837dc74c55.png">
-
-<img width="1440" alt="5" src="https://user-images.githubusercontent.com/94165103/190055083-09a22bab-3ffa-4837-a5a6-8ac26ac30885.png">
-
-<img width="1440" alt="6" src="https://user-images.githubusercontent.com/94165103/190055115-cea71a64-f0e3-491c-80d9-7152979827d7.png">
-
-<img width="1440" alt="7" src="https://user-images.githubusercontent.com/94165103/190055160-32c24aa2-334d-42dd-be0d-e25c8f4aa5ae.png">
-### REsult
 Therefore a program is return to develop a program to detect the various life cycles of an activity. The program is successfully executed.
