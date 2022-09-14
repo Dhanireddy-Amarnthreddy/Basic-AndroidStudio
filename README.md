@@ -3,8 +3,8 @@
 Developed: D.Amarnath reddy
 Registered Number: 212221240012
 
-###MainActivity.java
-package com.sanath.lifecycle;
+### MainActivity.java
+package com.Amarnath.lifecycle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
