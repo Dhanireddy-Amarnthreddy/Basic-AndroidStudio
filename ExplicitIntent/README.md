@@ -37,6 +37,7 @@ Registeration Number :212221240012
 */
 ```
 ### Main activity java
+```
 package com.Amarnath.a2b;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -66,7 +67,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+```
 ### second activity.java
+```
 package com.Amarnath.a2b;
 
 import android.os.Bundle;
@@ -98,8 +101,9 @@ public class SecondActivity extends AppCompatActivity {
     }
 
 }
+```
 ### activity.main_xml:
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -129,7 +133,9 @@ public class SecondActivity extends AppCompatActivity {
         android:text="Factorial" />
 
 </RelativeLayout>
+```
 ### activity_second.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
              android:layout_width="match_parent"
@@ -146,8 +152,11 @@ public class SecondActivity extends AppCompatActivity {
         android:textSize="30sp"
         />
 </RelativeLayout>
+```
 ## OUTPUT
-![Screenshot (110)](https://user-images.githubusercontent.com/94165103/190216463-217d3320-00c5-42c4-bc4e-4df40cb53955.png)
+
+![Screenshot (110)](https://user-images.githubusercontent.com/94165103/190217041-6dfea17f-fe37-4941-92db-3fe1fcb133c0.png)
+
 
 ![Screenshot (111)](https://user-images.githubusercontent.com/94165103/190216543-0d7d7a46-8da5-4d69-838e-4ff19fb6e585.png)
 
