@@ -1,4 +1,4 @@
-###Basic-AndroidStudio
+### Basic-AndroidStudio
 
 Developed: D.Amarnath reddy
 Registered Number: 212221240012
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 }
-###activity_main.xml
+### activity_main.xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         />
 </RelativeLayout>
 
-###Output
+### Output
 
 <img width="1440" alt="1" src="https://user-images.githubusercontent.com/94165103/190054686-9b4a5dc4-f331-4990-a399-0695d3a635cb.png">
 
@@ -96,5 +96,5 @@ public class MainActivity extends AppCompatActivity {
 <img width="1440" alt="6" src="https://user-images.githubusercontent.com/94165103/190055115-cea71a64-f0e3-491c-80d9-7152979827d7.png">
 
 <img width="1440" alt="7" src="https://user-images.githubusercontent.com/94165103/190055160-32c24aa2-334d-42dd-be0d-e25c8f4aa5ae.png">
-###REsult
+### REsult
 Therefore a program is return to develop a program to detect the various life cycles of an activity. The program is successfully executed.
