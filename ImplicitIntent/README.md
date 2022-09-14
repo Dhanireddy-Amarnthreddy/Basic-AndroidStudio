@@ -32,11 +32,80 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Implicit Intent”.
-Developed by:
-Registeration Number :
+Developed by:D.Amarnath
+Registeration Number :212221240012
 */
 ```
+### Main activity.java
+```
+package com.example.application;
 
+import com.example.application.R;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.net.Uri;
+
+public class MainActivity extends AppCompatActivity {
+    EditText edit1;
+    Button Button1;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        edit1 = findViewById(R.id.ram);
+        Button1 = findViewById(R.id.but1);
+
+        Button1.setOnClickListener(view ->{
+            String  url = edit1.getText().toString();
+            Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(url));
+            startActivity(intent);
+        });
+
+    }
+
+}
+```
+### activity_main.xml:
+```
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#15D5FB"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/ram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="183dp"
+        android:hint="Enter url"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/but1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Enter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
 ## OUTPUT
 
 ![Screenshot (107)](https://user-images.githubusercontent.com/94165103/190219666-cd97145f-958d-442f-8b99-771d93802b50.png)
@@ -50,4 +119,3 @@ Registeration Number :
 Thus a Simple Android Application to open google page using Implicit Intents using Android Studio is developed and executed successfully.
 
 
-Thus a Simple Android Application to open google page using Implicit Intents using Android Studio is developed and executed successfully.
