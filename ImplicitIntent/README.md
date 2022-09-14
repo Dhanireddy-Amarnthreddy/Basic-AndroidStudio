@@ -39,8 +39,15 @@ Registeration Number :
 
 ## OUTPUT
 
+![Screenshot (107)](https://user-images.githubusercontent.com/94165103/190219666-cd97145f-958d-442f-8b99-771d93802b50.png)
 
+![Screenshot (108)](https://user-images.githubusercontent.com/94165103/190219843-f37ac3c7-3fed-4808-98df-2f14cb89dd7d.png)
+
+![Screenshot (109)](https://user-images.githubusercontent.com/94165103/190219879-fcdf4637-08eb-4f9f-bb7d-4d1181b0adde.png)
 
 
 ## RESULT
+Thus a Simple Android Application to open google page using Implicit Intents using Android Studio is developed and executed successfully.
+
+
 Thus a Simple Android Application to open google page using Implicit Intents using Android Studio is developed and executed successfully.
