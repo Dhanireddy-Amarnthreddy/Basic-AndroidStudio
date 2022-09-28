@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
     </application>
 
 </manifest>
-
+```
 ## OUTPUT
 <img width="960" alt="Con1" src="https://user-images.githubusercontent.com/94165103/192588105-b91d9b06-09ab-4286-afff-1f11d099f47d.png">
 <img width="960" alt="con2" src="https://user-images.githubusercontent.com/94165103/192588208-70fa5214-d9a2-4915-8a13-7dc96396c6c2.png">
