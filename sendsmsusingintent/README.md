@@ -36,7 +36,7 @@ Registeration Number :212221240012
 ```
 ## MainActivyt.java
 ```
-package com.sanath.smscontentprovider;
+package com.Amarnath.smscontentprovider;
 
 import androidx.appcompat.app.AppCompatActivity;
 
