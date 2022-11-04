@@ -1,5 +1,3 @@
-# Ex.No:8 Build a program to show five checkboxes and toast selected checkboxes.
-
 
 # Ex.No:6 Build a program to create a first display screen of any search engine using Auto Complete Text View.
 
