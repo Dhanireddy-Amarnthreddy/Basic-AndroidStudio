@@ -37,71 +37,121 @@ Registeration Number : 212221240012
 
 #### MainActivity.java
 ```
-package com.manoj.autocompletetextview;
+package com.example.expno8;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
+
+import android.view.View;
+import android.widget.CheckBox;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    AutoCompleteTextView autocomplete;
 
-    String[] arr = { "Bing","Google","Yandex","Yahoo","DuckDuckGo","Swisscows","StartPage","Gibiru"};
+    private CheckBox chkAndroid, chkJava, chkPhp, chkCpp, chkC;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        autocomplete = (AutoCompleteTextView)
-                findViewById(R.id.autoCompleteTextView1);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>
-                (this,android.R.layout.select_dialog_item, arr);
+        chkAndroid = findViewById(R.id.chkAndroid);
+        chkJava = findViewById(R.id.chkJava);
+        chkPhp = findViewById(R.id.chkPhp);
+        chkCpp = findViewById(R.id.chkCpp);
+        chkC = findViewById(R.id.chkC);
+    }
 
-        autocomplete.setThreshold(2);
-        autocomplete.setAdapter(adapter);
+    public void showSelected(View view) {
+
+        String selected = "You selected: \n";
+
+        if(chkAndroid.isChecked())
+            selected += "Android";
+
+        if(chkJava.isChecked())
+            selected += "\nJava";
+
+        if(chkPhp.isChecked())
+            selected += "\nPHP";
+
+        if(chkCpp.isChecked())
+            selected += "\nCPP";
+
+        if(chkC.isChecked())
+            selected += "\nC";
+
+        Toast.makeText(MainActivity.this, selected, Toast.LENGTH_SHORT).show();
     }
 }
 ```
 #### activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#32D5D5"
-    android:padding="5dp"
-    tools:context=".MainActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
 
-
-    <AutoCompleteTextView
-        android:id="@+id/autoCompleteTextView1"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="30dp"
-        android:ems="10"
-        android:hint="@string/example_autocompletetextview"
-        android:textAlignment="center"
-        tools:ignore="UnknownId" />
+        android:gravity="center"
+        android:text="@string/JAvascript"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
 
-</RelativeLayout>
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HTML"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Kotlin"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkPhp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Python"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkCpp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <CheckBox
+        android:id="@+id/chkC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cat"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <Button android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        android:layout_marginTop="20dp"
+        android:onClick="showSelected"/>
+
+</LinearLayout>
 ```
 ## OUTPUT
-![t1](https://user-images.githubusercontent.com/94883876/199952200-d43243f9-310f-4c4d-8626-a66faeb2a604.jpg)
-
-![t2](https://user-images.githubusercontent.com/94883876/199952216-4f8d9825-dc23-43d3-94d7-d9e32ead465c.jpg)
-
-![t3](https://user-images.githubusercontent.com/94883876/199952248-6886d666-1304-4bab-88ee-4ca0acae0a55.jpg)
-
-![t4](https://user-images.githubusercontent.com/94883876/199952259-362456d3-d68e-4c4b-bea2-217768c13457.jpg)
-
+![image](https://user-images.githubusercontent.com/94165103/199977416-6b0f2801-d27f-4f06-8dfb-1c3d9d665036.png)
+![image](https://user-images.githubusercontent.com/94165103/199977496-1c4ba94d-d0ea-4237-a5ea-f120154b40b4.png)
 
 ## RESULT
-Thus a Simple Android Application develop a program to create a first display screen of any search engine using AutoComplete TextView in Android Studio is developed and executed successfully
+Thus a Simple Android Application create a list using checkbox to display selected checkbox using Android Studio is developed and executed successfully.
+
