@@ -1,9 +1,10 @@
 ### Basic-AndroidStudio
 
-Developed: D.Amarnath reddy
-Registered Number: 212221240012
+### Developed: D.Amarnath reddy
+### Registered Number: 212221240012
 
 ### MainActivity.java
+```
 package com.Amarnath.lifecycle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -61,7 +62,9 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 }
+```
 ### activity_main.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -80,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
         />
 </RelativeLayout>
+```
 
 ### Output
 ![1](https://user-images.githubusercontent.com/94165103/190207270-5e5691b2-f686-43b8-8197-bc9e7a91a416.jpg)
