@@ -31,7 +31,9 @@ Step 7: Save and run the application.
 
 /*
 Program to print the text “display screen of any search engine”.
+
 Developed by: D.Amarnath Reddy
+
 Registeration Number : 212221240012
 */
 
