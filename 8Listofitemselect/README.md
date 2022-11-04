@@ -36,7 +36,7 @@ Registeration Number : 212221240012
 */
 
 #### MainActivity.java
-
+```
 package com.manoj.autocompletetextview;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -63,9 +63,9 @@ public class MainActivity extends AppCompatActivity {
         autocomplete.setAdapter(adapter);
     }
 }
-
+``
 #### activity_main.xml
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         tools:ignore="UnknownId" />
 
 </RelativeLayout>
-
+```
 ## OUTPUT
 ![t1](https://user-images.githubusercontent.com/94883876/199952200-d43243f9-310f-4c4d-8626-a66faeb2a604.jpg)
 
