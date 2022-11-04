@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         autocomplete.setAdapter(adapter);
     }
 }
-``
+```
 #### activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
