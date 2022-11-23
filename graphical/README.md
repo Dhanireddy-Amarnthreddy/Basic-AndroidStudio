@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
-###
+### activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_height="match_parent"
@@ -92,5 +92,7 @@ public class MainActivity extends AppCompatActivity {
 ## OUTPUT
 <img width="960" alt="1" src="https://user-images.githubusercontent.com/94165103/203559793-b54bb356-d0af-4748-b0b6-589169e1c5e8.png">
 <img width="960" alt="2" src="https://user-images.githubusercontent.com/94165103/203559896-fa5e4ffb-0e94-4d8f-92a1-db2ea9fec600.png">
+
 ## RESULT
+
 Thus a Simple Android Application to create and design an android application that draws basic graphical primitives on the screen using Android Studio is developed and executed successfully.
